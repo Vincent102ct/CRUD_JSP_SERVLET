@@ -1,0 +1,8 @@
+/webapps/
+!/webapps/.gitkeep
+/infra/
+!/infra/docker/mysql/.gitignore
+# /my-tomcat-project/
+!/my-tomcat-project/.gitkeep
+/build/
+.settings

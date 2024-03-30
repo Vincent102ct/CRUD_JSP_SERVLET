@@ -13,6 +13,7 @@ public class DBManager {
     private DBManager() {
     }
 
+
     public static Connection getConnection() throws SQLException {
         if (connection == null || connection.isClosed()) {
             synchronized (DBManager.class) {
